@@ -1,0 +1,40 @@
+{% extends 'index.html' %} {% block body %}
+<!-- Page Header Start -->
+<div
+  class="container-fluid page-header py-5 mb-5 wow fadeIn"
+  data-wow-delay="0.1s"
+>
+  <div class="container text-center py-5">
+    <h1 class="display-2 text-dark mb-4 animated slideInDown">GIVE IT A GO</h1>
+    <nav aria-label="breadcrumb animated slideInDown"></nav>
+  </div>
+</div>
+<!-- Page Header End -->
+
+<div class="container-xxl py-5">
+  <div class="container">
+    <div class="row g-5 justify-content-center">
+      <div class="col-lg-6">
+        <div class="row g-3 justify-content-center">
+          <div id="webcam-container" class="text-center position-relative">
+            <div
+              id="loading-spinner"
+              class="spinner-border text-primary"
+              role="status"
+            ></div>
+            <video id="webcam" autoplay playsinline class="d-none"></video>
+            <canvas id="canvas" style="display: none"></canvas>
+          </div>
+          <button
+            id="capture-btn"
+            class="btn btn-dark rounded-pill py-3 px-5 mt-3"
+          >
+            Capture Image
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock body %}

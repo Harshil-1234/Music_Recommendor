@@ -1,0 +1,125 @@
+{% extends 'index.html' %} {% block body %}
+
+<!-- Page Header Start -->
+<div
+  class="container-fluid page-header py-5 mb-5 wow fadeIn"
+  data-wow-delay="0.1s"
+>
+  <div class="container text-center py-5">
+    <h1 class="display-2 text-dark mb-4 animated slideInDown">Features</h1>
+    <nav aria-label="breadcrumb animated slideInDown"></nav>
+  </div>
+</div>
+<!-- Page Header End -->
+
+<!-- Video Start -->
+<div
+  class="container-fluid video"
+  style="margin-top: 6rem; margin-bottom: 6rem"
+>
+  <div class="container">
+    <div class="row g-0">
+      <div class="col-lg-6 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="py-5">
+          <h1 class="display-6 mb-4">
+            EmoTunes: <span class="text-white">Your music, Your passion</span>
+          </h1>
+          <h5 class="fw-normal lh-base fst-italic text-white mb-5">
+            EmoTunes isn't just another music app. It's a revolutionary way to
+            connect your emotions with the perfect playlist. Using advanced
+            facial emotion recognition, EmoTunes curates personalized Spotify
+            playlists that match your mood, helping you find the right music for
+            every moment.
+          </h5>
+          <div class="row g-4 mb-5">
+            <div class="col-sm-6">
+              <div class="d-flex align-items-center">
+                <div
+                  class="flex-shrink-0 btn-lg-square bg-white text-primary rounded-circle me-3"
+                >
+                  <i class="fa fa-check"></i>
+                </div>
+                <span class="text-dark">Stress Relief</span>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="d-flex align-items-center">
+                <div
+                  class="flex-shrink-0 btn-lg-square bg-white text-primary rounded-circle me-3"
+                >
+                  <i class="fa fa-check"></i>
+                </div>
+                <span class="text-dark">Stress Relief</span>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="d-flex align-items-center">
+                <div
+                  class="flex-shrink-0 btn-lg-square bg-white text-primary rounded-circle me-3"
+                >
+                  <i class="fa fa-check"></i>
+                </div>
+                <span class="text-dark">Focus</span>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="d-flex align-items-center">
+                <div
+                  class="flex-shrink-0 btn-lg-square bg-white text-primary rounded-circle me-3"
+                >
+                  <i class="fa fa-check"></i>
+                </div>
+                <span class="text-dark">Personalized Experience</span>
+              </div>
+            </div>
+          </div>
+          <a class="btn btn-light rounded-pill py-3 px-5" href="/try"
+            >Explore More</a
+          >
+        </div>
+      </div>
+      
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Video End -->
+
+<!-- Video Modal Start -->
+<div
+  class="modal modal-video fade"
+  id="videoModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content rounded-0">
+      <div class="modal-header">
+        <h3 class="modal-title" id="exampleModalLabel">All about EmoTunes</h3>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <!-- 16:9 aspect ratio -->
+        <div class="ratio ratio-16x9">
+          <iframe
+            class="embed-responsive-item"
+            src=""
+            id="video"
+            allowfullscreen
+            allowscriptaccess="always"
+            allow="autoplay"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Video Modal End -->
+
+{% endblock body %}

@@ -1,0 +1,164 @@
+{% extends 'index.html' %} {% block body %}
+<!-- Carousel Start -->
+<div class="container-fluid px-0 mb-5">
+  <div
+    id="header-carousel"
+    class="carousel slide carousel-fade"
+    data-bs-ride="carousel"
+  >
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="w-100" src="../static/images/car_image3.jpeg" alt="Image" />
+        <div class="carousel-caption">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-7 text-center">
+                <p class="fs-4 text-white animated zoomIn">
+                  Welcome to <strong class="text-dark">EmoTunes</strong>
+                </p>
+                <h1 class="display-1 text-dark mb-4 animated zoomIn">
+                  Your Music Buddy
+                </h1>
+                <a
+                  href="/try"
+                  class="btn btn-light rounded-pill py-3 px-5 animated zoomIn"
+                  >Explore More</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="w-100" src="../static/images/car_image1.jpeg" alt="Image" />
+        <div class="carousel-caption">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-7 text-center">
+                <p class="fs-4 text-white animated zoomIn">
+                  Welcome to <strong class="text-dark">EmoTunes</strong>
+                </p>
+                <h1 class="display-1 text-dark mb-4 animated zoomIn">
+                  Your Music Buddy
+                </h1>
+                <a
+                  href="/try"
+                  class="btn btn-light rounded-pill py-3 px-5 animated zoomIn"
+                  >Explore More</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="w-100" src="../static/images/car_image2.jpeg" alt="Image" />
+        <div class="carousel-caption">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-7 text-center">
+                <p class="fs-4 text-white animated zoomIn">
+                  Welcome to <strong class="text-dark">EmoTunes</strong>
+                </p>
+                <h1 class="display-1 text-dark mb-4 animated zoomIn">
+                  Your Music Buddy
+                </h1>
+                <a
+                  href="/try"
+                  class="btn btn-light rounded-pill py-3 px-5 animated zoomIn"
+                  >Explore More</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#header-carousel"
+      data-bs-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#header-carousel"
+      data-bs-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+<!-- Carousel End -->
+
+<!-- About Start -->
+<div class="container-xxl py-5">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-6">
+        <div class="row g-3 justify-content-center">
+          <div class="col-6 text-end">
+            <img
+              class="img-fluid bg-white w-100 mb-3 wow fadeIn"
+              data-wow-delay="0.1s"
+              src="../static/images/music1.jpeg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+        <div class="section-title">
+          <p class="fs-5 fw-medium fst-italic text-primary">EmoTunes</p>
+          <h1 class="display-6">
+            Because your emotions deserve the perfect playlist.
+          </h1>
+        </div>
+        <div class="row g-3 mb-4">
+          <div class="col-sm-4">
+            <img
+              class="img-fluid bg-white w-100"
+              src="../static/images/music2.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="col-sm-8">
+            <h5>Why EmoTunes?</h5>
+            <p class="mb-0" style="text-align: justify;">
+              Music is a universal language that transcends barriers. EmoTunes
+              combines this ancient wisdom with modern technology, creating a
+              therapeutic experience that can alleviate stress, anxiety, and
+              other emotional challenges.
+            </p>
+          </div>
+        </div>
+        <div class="border-top mb-4"></div>
+        <div class="row g-3">
+          <div class="col-sm-8">
+            <h5>Transform Your Mood with Music</h5>
+            <p class="mb-0" style="text-align: justify;">
+              Experience the future of music therapy with EmoTunes. Connect your
+              emotions with music and discover a new way to enhance your life.
+              Try EmoTunes today and start your journey towards emotional
+              harmony.
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <img
+              class="img-fluid bg-white w-100"
+              src="../static/images/music3.jpeg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- About End -->
+{% endblock body %}
