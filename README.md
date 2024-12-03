@@ -1,8 +1,6 @@
 # Emotunes
 Emotunes is a web application that analyzes your facial emotions and curates a playlist of songs based on your current emotion. You can then add the curated playlist to your Spotify account.
 
-Demo: https://www.youtube.com/watch?v=rafw4JFtDg8
-
 ## Features
 - Facial emotion analysis
 - Curated playlists based on detected emotions
